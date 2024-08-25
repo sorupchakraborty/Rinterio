@@ -59,23 +59,7 @@
                         class=" h-8 w-8 bg-rent-primary -rotate-45 rounded-full text-black flex justify-center items-center">
                         <i class="fa-solid fa-arrow-right"></i>
                     </button>
-                    <div class="dropdown ">
 
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content  rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
-                            <li><a>Services</a></li>
-                            <li><a>Portfolio</a></li>
-                            <li><a>Blogs</a></li>
-                            <li><a>Contact Us</a></li>
-                        </ul>
-                    </div>
                     <a class="font-bold text-3xl">Rinterio</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
@@ -113,6 +97,24 @@
                         </button>
                     </div>
                 </div>
+                <div class="md:hidden">
+                    <div class="dropdown dropdown-end">
+                        <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                            <div class="w-10 rounded-full">
+                                <img alt="Tailwind CSS Navbar component" src="./images/dropdown.png" />
+                            </div>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             </div>
         </nav>
 
@@ -157,7 +159,7 @@
                 <!-- text section  -->
                 <div class="md:w-1/2">
                     <!-- about us button  -->
-                    <div>
+                    <div class="text-center md:text-left">
                         <div class=" btn rounded-full bg-white  font-bold">
                             <i class="fa-solid fa-arrow-right"></i>
                             <a class="text-[#494949]">About Us</a>
@@ -440,7 +442,7 @@
                                 placeholder="Write your message here"></textarea>
 
                         </div>
-                        <div class="sm:col-span-6 flex justify-center">
+                        <div class="md:col-span-6 ">
                             <div class=" btn rounded-full bg-rent-primary font-bold md:flex">
                                 <a class="">Book Consult</a>
                                 <button class=" h-8 w-8 bg-black -rotate-45 rounded-full text-white">
