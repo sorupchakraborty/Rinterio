@@ -31,6 +31,9 @@
         tailwind.config = {
             theme: {
                 extend: {
+                    backgroundImage: {
+                        'bg-pattern': "url('/images/bg.jpg')",
+                    },
                     colors: {
                         clifford: '#da373d',
                         'rent-primary': '#ABEF5F',
@@ -294,7 +297,8 @@
             <div class="grid grid-cols-12 gap-5">
                 <!-- card 1 -->
                 <div class="col-span-12 lg:col-span-8">
-                    <div class="flex flex-col justify-center md:justify-start md:flex-row items-center gap-10 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl h-full">
+                    <div
+                        class="flex flex-col justify-center md:justify-start md:flex-row items-center gap-10 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl h-full">
                         <div class="">
                             <img src="./images/img1.png" class="w-full" alt="">
                         </div>
@@ -314,16 +318,17 @@
                     </div>
                 </div>
                 <!-- card 2 -->
-                <div class="col-span-6 lg:col-span-4 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl">
+                <div class="col-span-12 lg:col-span-4 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl">
                     <img src="./images/img2.png" class="w-full" alt="">
                 </div>
                 <!-- card 3 -->
-                <div class="col-span-6 lg:col-span-3 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl">
+                <div class="col-span-12 lg:col-span-3 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl">
                     <img src="./images/img3.png" class="w-full" alt="">
                 </div>
                 <!-- card 4 -->
                 <div class="col-span-12 lg:col-span-6">
-                    <div class="flex items-center gap-10 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl h-full">
+                    <div
+                        class="flex flex-col justify-center md:justify-start md:flex-row items-center gap-10 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl h-full">
                         <div>
                             <img src="./images/img4.png" class="w-full" alt="">
                         </div>
@@ -341,11 +346,11 @@
                     </div>
                 </div>
                 <!-- card 5 -->
-                <div class="col-span-6 lg:col-span-3 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl">
+                <div class="col-span-12 lg:col-span-3 p-6 border-2 border-[rgb(233,233,233)] rounded-2xl">
                     <img src="./images/img5.png" class="w-full" alt="">
                 </div>
                 <!-- card 6 -->
-                <div class="col-span-6 lg:hidden p-6 border-2 border-[rgb(233,233,233)] rounded-2xl">
+                <div class="col-span-12 lg:hidden p-6 border-2 border-[rgb(233,233,233)] rounded-2xl">
                     <img src="./images/img3.png" class="w-full" alt="">
                 </div>
             </div>
@@ -354,11 +359,105 @@
     </section>
 
 
-    
-
-
-
     <!-- Our Latest Portfolio end -->
+
+    <!-- Discuss Next Project start  -->
+
+    <section class=" bg-bg-pattern">
+        <div class="md:container mx-auto">
+            <!-- heading section start  -->
+            <div class="">
+                <div class="py-6">
+                    <!-- text section  -->
+                    <div>
+                        <div class="text-center">
+                            <div class=" btn rounded-full bg-[#abef5f33]  font-bold">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <a class="text-[#494949]">Lets Connect</a>
+
+                            </div>
+
+                        </div>
+                        <div>
+                            <div class="text-center ">
+                                <h3 class=" my-6 font-bold  text-2xl md:text-3xl lg:text-4xl xl:text-5xl ">Lets Discuss
+                                    Next
+                                    Project
+                                </h3>
+                                <p class=" text-[#494949] py-2  ">The barn house captivates with its blend of rustic
+                                    charm
+                                    and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- form section start  -->
+            <div class="max-w-[50%] mx-auto">
+                <div class="border-b border-gray-900/10 pb-12">
+
+                    <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                        <div class="sm:col-span-3">
+                            <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
+                            <div class="mt-2">
+                                <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                                    class="block w-full rounded-full bg-[#FFFFFF] border-0 py-3 ring-1 ring-inset ring-gray-300 placeholder:text-[#A0A0A0] placeholder:px-4 focus:ring-2 focus:ring-inset  sm:text-sm sm:leading-6 "
+                                    placeholder="First Name*" required>
+                            </div>
+                        </div>
+                        <div class="sm:col-span-3">
+                            <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
+                            <div class="mt-2">
+                                <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                                    class="block w-full rounded-full bg-[#FFFFFF] border-0 py-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-[#A0A0A0] placeholder:px-4 focus:ring-2 focus:ring-inset  sm:text-sm sm:leading-6 "
+                                    placeholder="Last Name*" required>
+                            </div>
+                        </div>
+                        <div class="sm:col-span-3">
+                            <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
+                            <div class="mt-2">
+                                <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                                    class="block w-full rounded-full bg-[#FFFFFF] border-0 py-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-[#A0A0A0] placeholder:px-4 focus:ring-2 focus:ring-inset  sm:text-sm sm:leading-6 "
+                                    placeholder="Phone Number*" required>
+                            </div>
+                        </div>
+                        <div class="sm:col-span-3">
+                            <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
+                            <div class="mt-2">
+                                <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                                    class="block w-full rounded-full bg-[#FFFFFF] border-0 py-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-[#A0A0A0] placeholder:px-4 focus:ring-2 focus:ring-inset  sm:text-sm sm:leading-6 "
+                                    placeholder="Email Number*" required>
+                            </div>
+                        </div>
+                        <div class="sm:col-span-6">
+                            <label for="message"
+                                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"></label>
+                            <textarea id="message" rows="6"
+                                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-2xl border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 placeholder:text-[#A0A0A0] dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                placeholder="Write your message here"></textarea>
+
+                        </div>
+                        <div class="sm:col-span-6">
+                            <div class=" btn rounded-full bg-rent-primary font-bold md:flex">
+                                <a class="">Book Consult</a>
+                                <button class=" h-8 w-8 bg-black -rotate-45 rounded-full text-white">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discuss Next Project end -->
 
     <!-- Footer section start -->
     <footer class="md:container mx-auto"></footer>
