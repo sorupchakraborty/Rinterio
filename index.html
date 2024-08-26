@@ -153,13 +153,16 @@
     <main class=" bg-[#F4F4F4] ">
 
         <!-- design thoughtful section start  -->
-        <section class="md:container mx-auto mb-20">
-            <div class="hidden md:flex">
+        <section class="md:container mx-auto py-10 md:py-16 lg:py-28">
+            <!-- <div class="hidden md:flex absolute top-3">
                 <img src="./images/Vector.png" alt="">
-            </div>
-            <div class="flex flex-col md:flex-row justify-around fl p-4 gap-4">
+            </div> -->
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center p-4 gap-4 relative">
+                <div class="hidden md:flex absolute -top-10 -left-10">
+                    <img src="./images/Vector.png" alt="">
+                </div>
                 <!-- text section  -->
-                <div class="md:w-1/2">
+                <div class="">
                     <!-- about us button  -->
                     <div class="text-center md:text-left">
                         <div class=" btn rounded-full bg-white  font-bold">
@@ -177,21 +180,21 @@
                     </div>
                     <!-- design thoughtful card section  -->
                     <div class="">
-                        <div class="bg-[#FFFFFF] rounded-lg flex items-center gap-4 py-4 my-4">
-                            <div>
+                        <div class="bg-[#FFFFFF] rounded-lg grid grid-cols-12 items-center gap-4 py-4 my-4">
+                            <div class="col-span-4 md:col-span-2">
                                 <img class="px-4" src="./images/commercial.png" alt="">
                             </div>
-                            <div>
+                            <div class="col-span-8">
                                 <h5 class=" font-bold text-xl">Commercial</h5>
                                 <p class="text-[#737373] max-w-2xl mx-auto">We specialize in crafting commercial spaces
                                     that enhance productivity and reflect brand identity.</p>
                             </div>
                         </div>
-                        <div class="bg-[#FFFFFF] rounded-lg flex items-center gap-4 py-4">
-                            <div>
+                        <div class="bg-[#FFFFFF] rounded-lg grid grid-cols-12 items-center gap-4 py-4">
+                            <div class="col-span-4 md:col-span-2">
                                 <img class="px-4" src="./images/residential.png" alt="">
                             </div>
-                            <div>
+                            <div class="col-span-8">
                                 <h5 class=" font-bold text-xl">Residential</h5>
                                 <p class="text-[#737373] max-w-2xl mx-auto">We create residential spaces that are warm,
                                     inviting, and tailored to your lifestyle.</p>
@@ -202,8 +205,8 @@
                 </div>
 
                 <!-- image section -->
-                <div class="mb-4">
-                    <img src="./images/Rectangle.png" alt="">
+                <div class="flex justify-center items-center">
+                    <img src="./images/Rectangle.png" class="">
                 </div>
             </div>
         </section>
